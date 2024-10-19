@@ -27,8 +27,8 @@ MonoBehaviour:
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
     ctime0: 1966
-    ctime1: 9175
-    ctime2: 21627
+    ctime1: 9830
+    ctime2: 22937
     ctime3: 65535
     ctime4: 0
     ctime5: 0
@@ -46,4 +46,4 @@ MonoBehaviour:
     m_ColorSpace: 0
     m_NumColorKeys: 4
     m_NumAlphaKeys: 2
-  falloffStrength: 0.906
+  falloffStrength: 0.8

@@ -46,9 +46,9 @@ namespace Shark.WorldGeneration
             Mesh mesh = new();
             Vector3[] vertices = new Vector3[4]
             {
-                new(0, 0),
-                new(0, worldSettings.height),
-                new(worldSettings.width, 0),
+                new(-worldSettings.width, -worldSettings.height),
+                new(-worldSettings.width, worldSettings.height),
+                new(worldSettings.width, -worldSettings.height),
                 new(worldSettings.width, worldSettings.height)
             };
             int[] triangles = new int[6]

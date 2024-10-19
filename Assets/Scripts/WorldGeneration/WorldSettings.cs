@@ -14,5 +14,14 @@ namespace Shark.WorldGeneration
         
         [Range(0, 1)] 
         public float falloffStrength = 0.5f;
+
+        public enum TileType
+        {
+            Water,
+            Sand,
+            Meadow,
+            Rockiness
+        }
+        public TileType[,] worldTilemap;
     }
 }
